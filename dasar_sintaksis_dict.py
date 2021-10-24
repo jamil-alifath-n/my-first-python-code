@@ -33,5 +33,8 @@ result = json.dumps(users)
 print(result)
 print(type(result))
 
+# dumps: menuliskan ke string
+# dump: menusliskan ke file
+# menusliskan ke dalam file baru
 with open('result.json', 'w') as file:
     json.dump(users, file)
